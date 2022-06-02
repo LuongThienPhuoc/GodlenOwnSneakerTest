@@ -4,7 +4,7 @@
 
 ## Link demo on Heroku
 
-[Live Demo] (https://sneakergoldenown.herokuapp.com/)
+[Live Demo](https://sneakergoldenown.herokuapp.com/)
 
 ## Running instructions source code:
 Clone the project from this repository. Then run the command:
