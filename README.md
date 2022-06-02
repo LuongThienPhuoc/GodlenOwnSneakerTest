@@ -1,6 +1,11 @@
 # Golden Sneaker Test
 - Project written in Javascript language with ReactJS framework
 - State management using Redux
+
+## Link demo on Heroku
+
+[Live Demo] (https://sneakergoldenown.herokuapp.com/)
+
 ## Running instructions source code:
 Clone the project from this repository. Then run the command:
 
@@ -31,3 +36,6 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+
+
