@@ -1,0 +1,35 @@
+:root {
+  --white-: #FFFFFF;
+  --black-: #303841;
+  --pray-: #777777;
+  --yellow-: #F6C90E;
+}
+
+.app {
+  height: 100vh;
+}
+
+.app::before {
+  content: "";
+  display: block;
+  position: fixed;
+  width: 300%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  border-radius: 100%;
+  transform: translateX(-50%) skewY(-8deg);
+  background-color: var(--yellow-);
+  z-index: -100;
+  -webkit-animation: waveAnimation 10s ease-in-out infinite alternate;
+  animation: waveAnimation 10s ease-in-out infinite alternate;
+}
+
+@keyframes waveAnimation {
+  0% {
+      transform: translateX(-50%) skew(0deg,-8deg)
+  }
+  to {
+      transform: translateX(-30%) skew(8deg,-4deg)
+  }
+}

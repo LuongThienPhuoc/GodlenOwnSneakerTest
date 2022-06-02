@@ -1,0 +1,51 @@
+.card {
+    background-color: #fff;
+    box-sizing: border-box;
+    width: 360px;
+    height: 600px;
+    box-shadow: 0 3.2px 2.2px rgb(0 0 0 / 2%), 0 7px 5.4px rgb(0 0 0 / 3%), 0 12.1px 10.1px rgb(0 0 0 / 4%), 0 19.8px 18.1px rgb(0 0 0 / 4%), 0 34.7px 33.8px rgb(0 0 0 / 5%), 0 81px 81px rgb(0 0 0 / 7%);
+    border-radius: 30px;
+    overflow: hidden;
+    padding: 0 28px;
+    position: relative;
+    margin: 20px;
+}
+
+.card::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-color: var(--yellow-);
+    top: -20%;
+    left: -50%;
+    z-index: 0;
+}
+
+.card__logo {
+    margin-top: 10px;
+    display: block;
+    position: relative;
+    width: 50px;
+}
+
+.card__title {
+    position: relative;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 16px 0;
+}
+
+.card__product {
+    height: calc(100% - 98px);
+    position: relative;
+    overflow: hidden;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+
+.card__product::-webkit-scrollbar {
+    display: none;
+}
